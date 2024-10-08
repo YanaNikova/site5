@@ -1,0 +1,89 @@
+.content__descr{
+    padding: 90px 0 20px;
+}
+.content__descr a{
+    color: #878787;
+
+} 
+.content__page b{
+    font-weight: 500;
+}
+.content_title{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+}
+.content__choice{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.content__choice-filter{
+    display: flex;
+    align-items: center;
+}
+.content__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0 100px;
+}
+.content__cards-foto{
+    position: relative;
+    width: 285px;
+}
+.img-like{
+    position: absolute;
+    width: 100%;
+    padding-top: 20px;
+    transform: translateX(-20px);
+}
+.img-like img{
+    float: right;
+}
+.cards-descr, .cards-size{
+    height: 115px;
+    padding-top: 15px;
+}
+.cards-price{
+    padding: 20px 0 15px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.cards-more{
+    cursor: pointer;
+    text-decoration: underline 0.5px;
+    text-underline-offset: 2px;
+}
+.size, .color, .color_circle{
+    display: flex;
+    align-items: flex-end
+}
+
+.size div{
+    margin-right: 25px;
+    margin-top: 15px;
+}
+.shadow{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+}
+.hover{
+    display: none;
+}
+.color div{
+    margin-top: 15px;
+    margin-right: 19px;
+}
+.black, .gray, .red, .green, .white, .beige, .darkgreen{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+.black{background: #000000;} .gray{background: #E3E3E3;} .red{background: #CC2E2E;} .green{background: #00740C;} .white{border:1px solid rgba(0, 0, 0, 0.3);  background: #FFFFFF;} .beige{background: #F0E6DA;} .darkgreen{background: #8A8A8A;}

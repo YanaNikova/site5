@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/preview.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <nav class="header__menu">
+                    <div class="menu_activ">
+                        <img class="search" src="icons/ion_search-outline.png" alt="">
+                        <img class="login" src="icons/Vector_login.png" alt="">
+                        <ul>
+                            <li class="menu_item"><a href="home.html">Каталог</a></li>
+                            <li class="menu_item">Колекції</li>
+                            <li class="menu_item">Покупцям</li>
+                            <li class="menu_item">Про нас</li>
+                        </ul>
+                        <div class="header__settings_active">
+                            <button class="lenguage">
+                                <select name="lenguage_ua">
+                                    <option value="" >UA/ENG</option>
+                                    <option value="ua">UA</option>
+                                    <option value="eng">ENG</option>
+                                </select>
+                            </button>
+                            <button class="currency">
+                                <select name="currency_s">
+                                    <option value="uan">UAH</option>
+                                    <option value="usd">USD</option>
+                                </select>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="menu_hide">
+                        <ul>
+                            <li class="menu_item"><a href="home.html">Каталог</a></li>
+                            <li class="menu_item">Колекції</li>
+                            <li class="menu_item">Покупцям</li>
+                            <li class="menu_item">Про нас</li>
+                        </ul>
+                    </div>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+                <div class="header__logo">
+                    <img src="icons/logo.png" alt="Логотип">
+                </div>
+                <div class="header__settings">
+                    <button class="lenguage">
+                        <select name="lenguage_ua">
+                            <option value="" >UA/ENG</option>
+                            <option value="ua">UA</option>
+                            <option value="eng">ENG</option>
+                        </select>
+                    </button>
+                    <button class="currency">
+                        <select name="currency_s">
+                            <option value="uan">UAH</option>
+                            <option value="usd">USD</option>
+                        </select>
+                    </button>
+                </div>
+                <div class="header__icons">
+                    <img class="search" src="icons/ion_search-outline.png" alt="">
+                    <img class="login" src="icons/Vector_login.png" alt="">
+                    <img src="icons/like.png" alt="">
+                    <img src="icons/shopping.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="preview">
+        <div class="image-slider swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="imag-slider__image">
+                        <img src="img/IMG_1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imag-slider__image">
+                        <img src="img/IMG_1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imag-slider__image">
+                        <img src="img/IMG_1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="button">
+            <form action="home.html">
+                <button>
+                    <span class="button__text">каталог</span>
+                    <span class="arrow">
+                        <img src="icons/Arrow.png" alt="">
+                    </span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_container">
+                <div class="block_1">
+                    <div class="footer__logo">
+                        <img src="icons/logo.png" alt="">
+                    </div>
+                    <div class="footer__cards">
+                        <img class="visa" src="icons/visa.png" alt="">
+                        <img class="master" src="icons/mastercard.png" alt="">
+                    </div>
+                </div>
+                <div class="block block_2">
+                    <ul>
+                        <li class="footer_text">Ми в соціальних мережах</li>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Telegram</li>
+                    </ul>
+                </div>
+                <div class="block block_3">
+                    <ul>
+                        <li class="footer_text">Інформація для клієнта</li>
+                        <li>Про нас</li>
+                        <li>Контакти</li>
+                        <li>Доставка і оплата </li>
+                        <li>Обмін і поверння</li>
+                        <li>Договір оферти</li>
+                        <li>Політика конфіденційності</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="block_4">
+                <span>
+                    Розроблено компанією <img src="icons/logo_footer.png" alt="">
+                </span>
+                <span>©2023 Всі права захищені. Інтернет магазин J.D.Wool.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

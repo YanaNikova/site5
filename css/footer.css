@@ -1,0 +1,50 @@
+.footer{
+    height: 360px;
+    background: url(/img/footer_bk.jpg) no-repeat center;
+    border-top: 1px solid #989898;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.block li{
+    list-style: none;
+}
+.block li.footer_text{
+    padding-bottom: 20px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    line-height: 20px;
+}
+.block li{
+    padding-bottom: 15px;
+}
+.footer__cards{
+    display: flex;
+    flex-direction: column;
+}
+.footer__cards .visa{
+    padding-top: 50px;
+    width: 100px;
+    height: 35px;
+} 
+.footer__cards .master{
+    padding-top: 20px;
+    width: 45px;
+    height: 35px;
+} 
+.block_4{
+    width: 1000px;
+    transform: translateY(-51px);
+}
+.block_4 span{
+    font-weight: 400;
+    font-size: 14px;
+    padding-right: 160px;
+    line-height: 17px;
+    color: #989898;
+}
+li:hover{
+    cursor: pointer;
+}

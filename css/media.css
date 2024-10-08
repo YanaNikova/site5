@@ -1,0 +1,167 @@
+@media (max-width: 1200px){
+    .header__settings, .menu_hide{
+        display: none;
+    }
+    .menu_activ{
+        visibility: visible !important;
+        position: fixed;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        top: 0;
+        left: -100%;
+        width: 50%; 
+        height: 100%; 
+        padding: 20px 15px; 
+        background-color: #fff; 
+        transition: 0.6s all;
+    }
+    .menu_activ .search, .menu_activ .login{
+        padding-left: 20px;
+        padding-top: 15px;
+        width: 25px;
+        height: 25px;
+    }
+    .header__settings_active {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header__settings_active button {
+        font-size: 25px !important;
+        margin-left: 0px;
+    }
+    .header__settings_active select{
+        font-size: 25px ;
+    }
+    .header__content{
+        padding-top: 10px;
+    }
+    .header__menu ul{
+        width: 150px;
+        padding-left: 20px;
+        font-size: 30px;
+        justify-content: space-evenly;
+        height: 50%;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .header__menu li:nth-child(1), .header__menu a{
+        text-decoration: none !important;
+    }
+    .header__icons .search, .header__icons .login{
+        display: none;
+    }
+    .menu_active {
+        left: 0; 
+        width: 30%;
+    }
+     
+    .menu_item{
+        padding-right: 0;
+        border: none;
+        margin-top: 30px; 
+    } 
+     
+    .menu_link{
+        font-size: 20px;
+    } 
+    .hamburger{ 
+        display: block; 
+        position: absolute; 
+        top: 50%; 
+        transform: translateY(-50%); 
+        width: 26px; 
+        height: 12px;
+    } 
+    .hamburger span{ 
+        display: block; 
+        height: 2px; 
+        width: 100%; 
+        background-color: #000; 
+        margin-bottom: 2px; 
+        transition: 0.5s all; 
+    }
+    .hamburger_active{ 
+        position: fixed;
+        display: block; 
+        top: 20px;
+        width: 26px; 
+        height: 12px;
+    }
+
+    .hamburger_active span:nth-child(1){ 
+       transform: translateY(6px) rotate(-45deg); }
+    .hamburger_active span:nth-child(2){ 
+       display: none;}
+    .hamburger_active span:nth-child(3){ 
+       transform: translateY(3px) rotate(45deg);
+    } 
+    .footer ul{
+        padding-left: 0;
+    }    
+    
+    .block_1{
+        padding-right: 10px;
+        padding-top: 17px;
+    } 
+    .block_2{
+        margin: 0 20px;
+    }
+    .block_4 {
+        display: flex;
+        width: 100%;
+        transform: none;
+        flex-wrap: wrap;
+    }
+    .block_4 span {
+        padding-right: 0px;
+    }
+    .footer_container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+@media (max-width: 991px){
+    .container {
+        margin: 0 130px !important;
+    }
+}
+
+@media (max-width: 550px){
+    .container {
+        margin: 0 50px !important;
+    }
+    .content__cards{
+        flex-direction: column;
+    }
+    .header__settings_active select{
+        font-size: 15px ;
+    }
+    .header__menu ul{
+        font-size: 15px;
+    }
+    .header__logo img{
+        height: 20px;
+        width: 105px;
+    }
+}
+@media (max-width: 320px){
+    .container {
+        margin: 0 5px !important;
+    }
+    .header__menu ul {
+        padding: 0;
+    }
+    .header__settings_active select {
+        margin-left: 0;
+    }
+    .menu_activ .search, .menu_activ .login {
+        padding-left: 0px;
+        padding-right: 10px;
+        padding-top: 25px;
+        width: 20px;
+        height: 20px;
+    }
+}

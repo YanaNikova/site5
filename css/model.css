@@ -1,0 +1,112 @@
+.clothmodel{
+    padding-top: 150px;
+}
+.back-img, .color_block{
+    display: none;
+}
+.activ, .block{
+    display: block;
+}
+.activ{
+    width: 650px;
+    height: 790px;
+}
+.clothmodel__descr{
+    padding-left: 105px;
+}
+h1{
+    margin: 0 0 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+.clothmodel__descr span, .clothmodel__characteristics{
+    font-weight: 300;
+    font-size: 16px;
+
+    color: #AFAFAF;
+}
+.prise{
+    padding: 60px 0 70px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.black, .white, .beige, .darkgreen{
+    margin: 15px 8px 0 15px !important;
+}
+.color_block{
+    padding-top: 15px;
+}
+.clothmodel__tabs{
+    position: absolute;
+    z-index: 3;
+    width: 113px;
+    height: 541px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 55px;
+    margin-top: 130px;
+}
+.clothmodel__tabs img{
+    width: 100px;
+    height: 130px;
+}
+.clotmodel__backend{
+    display: flex;
+}
+.clothmodel_add{
+    display: flex;
+    padding-top: 60px;
+}
+.clothmodel_add button{
+    width: 285px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.clothmodel_add button.add_card{
+    margin-right: 80px;
+    background: #000000;
+    color: #FFFFFF;
+}
+.add_like{
+    display: flex;
+    align-items: center;
+}
+.clothmodel__characteristics{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+}
+.clothmodel__characteristics li:hover{
+    color: #474747;
+    text-decoration: underline 0.5px #474747;;
+    text-underline-offset: 2px;
+}
+table{
+    font-weight: 300;
+    font-size: 14px;
+}
+table .characteristics-header{
+    font-weight: 400;
+    line-height: 45px;
+}
+table .characteristics-header :nth-child(1){
+    width: 330px;
+}
+table .characteristics-header :nth-child(2), .characteristics-header :nth-child(3){
+    width: 90px;
+}
